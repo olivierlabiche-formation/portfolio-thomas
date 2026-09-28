@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio de Thomas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="icon" href="assets/favicon.png" />
   </head>
@@ -134,6 +140,93 @@
           </div>
         </article>
       </section>
+      <section id="contact" class="contact">
+        <h2>Me contacter</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Parlons-en</h3>
+            <p>
+              Vous avez une grande idée ou un projet à développer et besoin
+              d'aide ? Contactez-moi, je serai ravi d'échanger avec vous et de
+              vous accompagner.
+            </p>
+            <h3>Email</h3>
+            <p><a href="mailto:beebs@gmail.com">beebs@gmail.com</a></p>
+            <h3>Réseaux sociaux</h3>
+            <ul class="socials">
+              <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener"
+                  >Instagram</a
+                >
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener"
+                  >Facebook</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <form class="contact-form">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="service">Quel service vous intéresse ?</label>
+            <select id="service" name="service">
+              <option value="">Choisir un type de projet</option>
+              <option value="identite">Identité visuelle</option>
+              <option value="web">Design web</option>
+              <option value="illustration">Illustration</option>
+            </select>
+
+            <label for="budget">Budget</label>
+            <select id="budget" name="budget">
+              <option value="">Choisir un budget</option>
+              <option value="petit">Moins de 500 €</option>
+              <option value="moyen">500 à 2 000 €</option>
+              <option value="grand">Plus de 2 000 €</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <ul class="footer-socials">
+        <li>
+          <a href="https://facebook.com" target="_blank" rel="noopener"
+            ><img src="assets/facebook.svg" alt="Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://instagram.com" target="_blank" rel="noopener"
+            ><img src="assets/instagram.svg" alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://twitter.com" target="_blank" rel="noopener"
+            ><img src="assets/twitter.svg" alt="Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://linkedin.com" target="_blank" rel="noopener"
+            ><img src="assets/linkedin.svg" alt="LinkedIn"
+          /></a>
+        </li>
+      </ul>
+      <p>&copy; 2026 Thomas. Tous droits réservés.</p>
+    </footer>
   </body>
 </html>

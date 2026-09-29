@@ -1,6 +1,7 @@
 # Portfolio de Thomas
 
 Site vitrine responsive d'un graphiste freelance, réalisé dans le cadre de la formation « Comprendre les bases du web et du code pour appréhender le no code ».
+Site en ligne : https://portfolio-thomas-gdu.netlify.app
 
 ## Structure
 
